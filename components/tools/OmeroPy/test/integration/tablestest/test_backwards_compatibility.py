@@ -244,9 +244,6 @@ class TestBackwardsCompatibility_4_4_5(BackwardsCompatibilityBase):
             'stringcol',
             'mask'
             ]
-        # 'longarr'
-        # 'floatarr'
-        # 'doublearr'
 
         headers = table.getHeaders()
         assert [type(x) for x in headers] == expectedTypes
